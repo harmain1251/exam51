@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="/submit" method="POST">
+        <label>Name:</label><br>
+        <input type="text" name="name" placeholder="Enter name"><br><br>
+        <label>Email::</label><br>
+        <input type="email" name="year_email" placeholder="Enter Email"><br><br>
+        <label>RollNUmber:</label><br>
+        <input type="text" name="rollno" placeholder="Enter RollNUmber"><br><br>
+        <label>Year:</label><br>
+        <select name="year" required>
+            <option value="">Select Year</option>
+            <option value="First Year">First Year</option>
+            <option value="Second Year">Second Year</option>
+            <option value="Third Year">Third Year</option>
+            <option value="Final Year">Final Year</option>
+        </select><br>
+        <button type="submit">Register</button>
